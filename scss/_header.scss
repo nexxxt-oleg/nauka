@@ -1,0 +1,109 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+.science {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.science__header {
+  height: 630px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #65bcb1;
+  position: relative;
+  padding-top: 22px;
+  margin-bottom: 140px;
+  &__navbar {
+    height: 140px;
+    align-items: flex-start;
+    li {
+      margin: 0 15px;
+      a {
+        text-decoration: none;
+        display: block;
+        padding: 3px 10px;
+        font-family: "Montserrat";
+        font-size: 14px;
+        line-height: 24px;
+        height: 30px;
+        transition: all 0.3s ease-in-out;
+        color: #000;
+        position: relative;
+        z-index: 1;
+        span {
+          font-family: "Montserrat";
+          font-size: 14px;
+          line-height: 24px;
+          color: #000;
+          position: relative;
+          z-index: 10;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 0;
+          height: 0;
+          border-radius: 100%;
+          background-color: rgba(255,255,255,0.4);
+          -webkit-transition: all .5s cubic-bezier(.52, .27, .4, 1.52);
+          transition: all .5s cubic-bezier(.52, .27, .4, 1.52);
+          opacity: 0;
+        }
+        &:hover::before,
+        &.active::before {
+          left: 0;
+          top: 0;
+          margin-top: 0;
+          margin-left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 6px;
+          opacity: 1;
+        }
+        &.active:hover::before {
+          background-color: rgba(255,255,255,0.8);
+        }
+      }
+    }
+  }
+  &__title {
+    padding-top: 30px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+  }
+  &__journal {
+    position: relative;
+    padding-top: 30px;
+    height: 350px;
+    &__img {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    &__logotip {
+      width: 110px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 110px;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      z-index: 20;
+      right: 15px;
+      bottom: -55px;
+      border-radius: 55px;
+    }
+  }
+}

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="shortcut icon" href="favicon.ico" type="image/x-icon"-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Наука и жизнь</title>
+
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="science">
+    <header class="science__header lazy" data-bg="./img/bg-top.jpg" data-bg-hidpi="./img/bg-top@2x.jpg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light science__header__navbar ">
+                <button class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar" data-aos="fade-down" data-aos-duration="1000">
+                    <ul class="navbar-nav justify-content-center w-100">
+                        <li class="nav-item">
+                            <a class="js-anchor" href="#inspection"><span>Обзор журнала</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="js-anchor" href="#rew"><span>Отзывы читателей</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="js-anchor" href="#"><span>Ответы на вопросы</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="js-anchor active" href="#"><span>Купить журнал</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="js-anchor" href="#"><span>Оформить подписку</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+
+                <svg class="icon" width="770" height="50" data-aos="fade-up" data-aos-duration="1000"
+                     data-aos-delay="300">
+                    <use xlink:href="#svg-logo"></use>
+                </svg>
+
+                <h1 class="science__header__title" data-aos="fade-in">Тот самый научно-популярный!</h1>
+            </div>
+            <div class="science__header__journal">
+                <div class="science__header__journal__img" data-aos="fade-zoom-in" data-aos-delay="300"
+                     data-aos-duration="2000">
+                    <picture>
+                        <source media="(min-width: 1200px)"
+                                data-srcset="./img/journal.png 1x, ./img/journal@2x.png 2x"/>
+                        <source media="(max-width: 1199px)"
+                                data-srcset="./img/journal_mob.png 1x, ./img/journal_mob@2x.png 2x"/>
+                        <img alt="" class="lazy" data-src="./img/journal.png"/>
+                    </picture>
+                </div>
+                <div class="science__header__journal__logotip" data-aos="fade-up" data-aos-delay="300"
+                     data-aos-duration="2000">
+                    <svg class="icon" width="94" height="94">
+                        <use xlink:href="#svg-logotip"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="science__top-btn">
+            <a href="#bay" class="science__btn science__btn--green"><span>Купить журнал</span></a>
+            <a href="" class="science__btn science__btn--blue"><span>ОФОРМИТЬ ПОДПИСКУ</span></a>
+        </div>
+        <div class="row fpad50">
+            <div class="col-lg-4 fpad50">
+                <div class="science__box-text" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>
+                        Мы пишем
+                        только о науке
+                    </h2>
+                    <div class="science__box-text__wr">
+                        Наши статьи расскажут вам о животных и растениях, физике и астрономии, лингвистике и истории,
+                        химии, искусстве, садоводстве и многом другое. А ещё у нас есть научный кроссворд и фантастика!
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 fpad50">
+                <div class="science__box-text" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>
+                        Наши авторы
+                    </h2>
+                    <div class="science__box-text__wr">
+                        Это учёные и научные журналисты, которые пишут на доступном и понятном языке. Журнал можно
+                        читать всей семьёй - и взрослым и школьникам. Возрастной рейтинг журнала – 12+.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 fpad50">
+                <div class="science__box-text" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>
+                        Наука и жизнь
+                    </h2>
+                    <div class="science__box-text__wr">
+                        Это 144 интересные страницы без политики, без фейков и без рекламы. Отложите в сторону смартфон
+                        и подарите себе и близким забытое удовольствие от чтения!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="science__informer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 fpad50" data-aos="fade-in" data-aos-duration="500">
+                    <div class="science__informer__item">
+                        <div class="science__informer__item__ico">
+                            <svg class="icon" width="70" height="85">
+                                <use xlink:href="#svg-ico1"></use>
+                            </svg>
+                        </div>
+                        <div class="science__informer__item__desc">
+                            Журнал издаётся<br>
+                            непрерывно<br>
+                            с 1934 года
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fpad50" data-aos="fade-in" data-aos-duration="500">
+                    <div class="science__informer__item">
+                        <div class="science__informer__item__ico">
+                            <svg class="icon" width="70" height="92">
+                                <use xlink:href="#svg-ico2"></use>
+                            </svg>
+                        </div>
+                        <div class="science__informer__item__desc">
+                            Неизменный дизайн обложки знаком уже нескольким поколениям
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fpad50" data-aos="fade-in" data-aos-duration="500">
+                    <div class="science__informer__item">
+                        <div class="science__informer__item__ico">
+                            <svg class="icon" width="70" height="88">
+                                <use xlink:href="#svg-ico3"></use>
+                            </svg>
+                        </div>
+                        <div class="science__informer__item__desc">
+                            В журнале одинаковое<br>
+                            внимание уделяется текстам и иллюстрациям
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fpad50" data-aos="fade-in" data-aos-duration="500">
+                    <div class="science__informer__item">
+                        <div class="science__informer__item__ico">
+                            <svg class="icon" width="71" height="95">
+                                <use xlink:href="#svg-ico4"></use>
+                            </svg>
+                        </div>
+                        <div class="science__informer__item__desc">
+                            Журнал издаётся на средства читателей и подписчиков,<br>
+                            поэтому в нём нет рекламы
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="inspection" class="science__inspection">
+        <div class="science__inspection__book rellax" data-rellax-speed="1" data-aos="fade-in" data-aos-duration="500">
+            <img
+
+                    data-src="./img/book1.png"
+                    data-srcset="./img/book1@2x.png 2x"
+                    alt=""
+                    class="lazy"
+            />
+        </div>
+        <div class="container">
+
+
+            <header class="science__caption science__caption--border">
+                <h2>Обзор журнала</h2>
+            </header>
+
+            <div class="science__inspection__video" data-aos="fade-in" data-aos-duration="500">
+                <div class="science__inspection__video__wrap">
+                    <iframe id="video" class="lazy" width="640" height="360"
+                            data-src="https://www.youtube.com/embed/XPoewy87POM?enablejsapi=1&html5=1&mute=1"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    <div class="science__inspection__video__play" id="wrap-video">
+                        <div id="play-button" class="play-button">
+                            <svg class="icon" width="31" height="31">
+                                <use xlink:href="#svg-play"></use>
+                            </svg>
+                            СМОТРЕТЬ ОБЗОР
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="science__fonts16 text-center">
+                <p>Научные знания - это та опора, которая поможет не утонуть в бесконечном потоке информации.</p>
+                <p>Вы не только заглянете в интереснейший мир науки, но и сможете увлечь чтением ваших детей.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="rew" class="science__rew">
+        <div class="container">
+
+            <header class="science__caption ">
+                <h2>Отзывы читателей</h2>
+            </header>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="science__rew__slider">
+                        <div class="swiper" id="sliderRew">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="science__rew__slider__item">
+                                        <div class="science__rew__slider__item__text">
+                                            <svg class="icon" width="23" height="18">
+                                                <use xlink:href="#svg-q"></use>
+                                            </svg>
+
+                                            На самом деле, этот журнал говорит сам себя! По мне, так это один из лучших
+                                            познавательных журналов России.По качеству доставки: идеальное состояние. В
+                                            целом: удобный формат, классная глянцевая бумага, красочные иллюстрации и
+                                            фотографии. Про статьи, как мне кажется, писать излишне, они разнообразны
+                                            (они реально на все темы, порой на очень узкие, но при этом благодаря
+                                            прекрасным авторам, ты читаешь и даже немного разбираешься в совсем далёкой
+                                            для тебя области) ёмки, актуальны и трудно оторваться пока не прочитаешь их
+                                            все до конца!!!О многом из содержания журнала я не упоминал, а там поверьте
+                                            достаточно всего, что способно привлечь внимание широкого круга читателей, и
+                                            это окромя "обычных" статей! Буду покупать и читать, пока видят глаза и
+                                            работает голова)))
+
+                                            <div class="science__rew__slider__item__text__author">Елена</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="science__rew__slider__item">
+                                        <div class="science__rew__slider__item__text">
+                                            <svg class="icon" width="23" height="18">
+                                                <use xlink:href="#svg-q"></use>
+                                            </svg>
+                                            Ура! Любимый журнал доставлен со скоростью света!
+                                            Настоящий научно-популярный журнал, сведениям которого можно доверять,
+                                            теперь на расстоянии меньше суток!! Вчера заказала - сегодня получила!
+                                            Прекрасная возможность стать умнее в самых разных областях современной
+                                            науки!
+
+                                            <div class="science__rew__slider__item__text__author">Александр</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="science__rew__slider__item">
+                                        <div class="science__rew__slider__item__text">
+                                            <svg class="icon" width="23" height="18">
+                                                <use xlink:href="#svg-q"></use>
+                                            </svg>
+                                            Ура! Любимый журнал доставлен со скоростью света!
+                                            Настоящий научно-популярный журнал, сведениям которого можно доверять,
+                                            теперь на расстоянии меньше суток!! Вчера заказала - сегодня получила!
+                                            Прекрасная возможность стать умнее в самых разных областях современной
+                                            науки!
+
+                                            <div class="science__rew__slider__item__text__author">Александр</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="science__rew__slider__item">
+                                        <div class="science__rew__slider__item__text">
+                                            <svg class="icon" width="23" height="18">
+                                                <use xlink:href="#svg-q"></use>
+                                            </svg>
+                                            Ура! Любимый журнал доставлен со скоростью света!
+                                            Настоящий научно-популярный журнал, сведениям которого можно доверять,
+                                            теперь на расстоянии меньше суток!! Вчера заказала - сегодня получила!
+                                            Прекрасная возможность стать умнее в самых разных областях современной
+                                            науки!
+
+                                            <div class="science__rew__slider__item__text__author">Александр</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div id="paginationRew" class="swiper-pagination-rew"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="science__rew__footer">
+                <a href="#bay" class="science__btn science__btn--green"><span>Купить журнал</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="answers" class="science__answers">
+        <div class="science__answers__book rellax" data-rellax-speed="0.5" data-aos="fade-in" data-aos-duration="500">
+            <img
+
+                    data-src="./img/book2.png"
+                    data-srcset="./img/book2@2x.png 2x"
+                    alt=""
+                    class="lazy"
+            />
+        </div>
+        <div class="container">
+
+            <header class="science__caption ">
+                <h2>Ответы на вопросы</h2>
+            </header>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion science__answers__accordion" >
+                        <div class="accordion__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="accordion__header" data-bs-toggle="collapse" data-bs-target="#collapse_1" >
+                                Как часто выходит журнал?
+                            </div>
+                            <div id="collapse_1" class="accordion-collapse collapse show"  >
+                                <div class="accordion__body">
+                                    Журнал издаётся  АНО "Редакция журнала "Наука и жизнь" на средства, преимущественно полученные от подписки и продажи номеров журнала. Фактически, это можно назвать краудфандинг-проектом.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="accordion__header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_2">
+                                Элемент аккордеона #2
+                            </div>
+                            <div id="collapse_2" class="accordion-collapse collapse" >
+                                <div class="accordion__body">
+                                    Журнал издаётся  АНО "Редакция журнала "Наука и жизнь" на средства, преимущественно полученные от подписки и продажи номеров журнала. Фактически, это можно назвать краудфандинг-проектом.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="accordion__header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_3">
+                                Элемент аккордеона #2
+                            </div>
+                            <div id="collapse_3" class="accordion-collapse collapse" >
+                                <div class="accordion__body">
+                                    Журнал издаётся  АНО "Редакция журнала "Наука и жизнь" на средства, преимущественно полученные от подписки и продажи номеров журнала. Фактически, это можно назвать краудфандинг-проектом.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="accordion__header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_4">
+                                Элемент аккордеона #2
+                            </div>
+                            <div id="collapse_4" class="accordion-collapse collapse" >
+                                <div class="accordion__body">
+                                    Журнал издаётся  АНО "Редакция журнала "Наука и жизнь" на средства, преимущественно полученные от подписки и продажи номеров журнала. Фактически, это можно назвать краудфандинг-проектом.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bay" class="science__bay">
+        <div class="container">
+
+            <header class="science__caption science__caption--border">
+                <h2>Купить журнал</h2>
+            </header>
+            <div class="text-center science_fonts14 fpad50">
+                Сделайте чтение «Науки и жизни» теплой семейной традицией!
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="science__rew__slider">
+                        <div class="swiper" id="sliderBay">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="science__rew__slider__item">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div id="paginationBay" class="swiper-pagination-rew"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+
+    <div class="d-none">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <symbol id="svg-logo" viewBox="0 0 407.84 26.46">
+                <path fill="currentColor"
+                      d="M17.78,12.6V1.66H16.49V.72H31.32v.94H28.65V25h2.67v.94H16.49V25h1.29V13.53H13.53V25h1.3v.94H0V25H2.66V1.66H0V.72H14.83v.94h-1.3V12.6Zm24,4.75L40.1,22.17a4.9,4.9,0,0,0-.28,1.52A1.27,1.27,0,0,0,41.22,25h1.37v.94H35.75V25c2.09,0,2.81-1.55,3.24-2.7L46.65.72H54L62.89,25h1.87v.94H48.56V25h2.88l-2.81-7.63Zm6.44-.94L45.18,8l-3,8.42ZM67.75,1.66V.72H84.89v.94H82.65l5.44,9.5,4-7.24a2.4,2.4,0,0,0,.32-1.18c0-1.08-1.15-1.08-2.19-1.08H89.6V.72h7v.94a3.3,3.3,0,0,0-3.13,2.16L83.05,22.39a7.19,7.19,0,0,1-6.77,4.07c-6.12,0-7.09-3.46-7.09-5.08a4.45,4.45,0,0,1,4.61-4.5,4.21,4.21,0,0,1,4.39,4.43,3.88,3.88,0,0,1-2.34,3.74,1.92,1.92,0,0,0,1.3.4c1.8,0,3.49-1.08,4.78-3.28L70.27,1.66ZM115.31,12c2.66,0,3.52-.61,3.81-5.32.15-2.52.94-6.52,5.62-6.52a4.5,4.5,0,0,1,4.86,4.75c0,2.7-1.73,4.61-4.32,4.61A4,4,0,0,1,121.82,8c-1-1.37-.75-3.17-1.15-3.17-.61,0-.61,1.51-.65,2.16-.07,2.16.11,4.28-2.19,5.43,3.81.15,8.89.51,10.61,4.14,1.48,3.14-.14,6.66,2,6.66a3.44,3.44,0,0,0,2.27-1.33l.65.65c-2.74,2.84-5.08,3.89-7.46,3.89-2,0-6.8-.44-7.34-8.14-.36-4.93-.54-5.36-3.2-5.36h-.87V25h2.67v.94H101V25h2.66V1.66H101V.72h16.2v.94h-2.67V12Zm27.28,5.33-1.72,4.82a4.62,4.62,0,0,0-.29,1.52A1.27,1.27,0,0,0,142,25h1.37v.94h-6.84V25c2.09,0,2.81-1.55,3.24-2.7L147.42.72h7.34L163.65,25h1.87v.94H149.33V25h2.88l-2.81-7.63Zm6.45-.94L145.94,8l-3,8.42Zm34.6-14.75H181V.72H195.8v.94h-1.29V18.29h.14l4.1-14.91V1.66h-1.29V.72h14.83v.94h-2.67V25h2.67v.94H197.46V25h1.29V7.34h-.14l-4.1,14.91V25h1.29v.94H181V25h2.67ZM246.24,13h-.51c-2.66,0-2.84.43-3.2,5.36-.54,7.7-5.29,8.14-7.34,8.14-2.38,0-4.72-1.05-7.45-3.89l.64-.65a3.44,3.44,0,0,0,2.27,1.33c2.16,0,.54-3.52,2-6.66,1.73-3.63,6.8-4,10.62-4.14C241,11.3,241.16,9.18,241.09,7c0-.65,0-2.16-.65-2.16-.43,0-.36,1-.46,1.62a3.88,3.88,0,0,1-4.14,3.06c-2.6,0-4.32-1.91-4.32-4.61A4.5,4.5,0,0,1,236.38.18c4.68,0,5.47,4,5.61,6.52.29,4.71,1.15,5.32,3.82,5.32h.43V1.66h-2.67V.72h16.2v.94h-2.66V12h.43c2.66,0,3.53-.61,3.82-5.32.14-2.52.93-6.52,5.61-6.52a4.5,4.5,0,0,1,4.86,4.75c0,2.7-1.73,4.61-4.32,4.61a3.88,3.88,0,0,1-4.14-3.06c-.11-.58,0-1.62-.47-1.62-.61,0-.61,1.51-.64,2.16-.08,2.16.1,4.28-2.2,5.43,3.82.15,8.89.51,10.62,4.14,1.48,3.14-.14,6.66,2,6.66A3.39,3.39,0,0,0,275,21.92l.65.65c-2.73,2.84-5.07,3.89-7.45,3.89-2.05,0-6.8-.44-7.34-8.14-.36-4.93-.54-5.36-3.21-5.36h-.5V25h2.66v.94h-16.2V25h2.67ZM282.1,1.66h-2.67V.72h14.83v.94H293V18.29h.14l4.1-14.91V1.66h-1.29V.72h14.83v.94h-2.66V25h2.66v.94H295.92V25h1.29V7.34h-.14L293,22.25V25h1.29v.94H279.43V25h2.67Zm42.22,10.58c1,0,2.78.07,2.78-3.1V3.89a2.23,2.23,0,0,0-2.45-2.31c-3.39,0-6.41,3.35-7.24,7.78h-.93V0h.93l2.81,2a12.49,12.49,0,0,1,7.06-1.8c8.24,0,10.25,3.6,10.25,6.44,0,2.27-1.08,5.69-8.06,6V13c7.88.5,8.78,4.5,8.78,7,0,1.44-.93,6.52-11.48,6.52-9.65,0-12.09-3.17-12.09-5.87s1.44-5,4.57-5c2.95,0,4.43,1.87,4.43,3.89,0,1.66-.51,4.39-4.29,4.39.51.83,1.48,1.55,4.14,1.55,1.91,0,3.57-.22,3.57-3.85V16.27c0-3.17-1.77-3.1-2.78-3.1h-3.74v-.93Zm35.93.36V1.66H359V.72h14.83v.94h-2.66V25h2.66v.94H359V25h1.3V13.53H356V25h1.3v.94H342.47V25h2.66V1.66h-2.66V.72H357.3v.94H356V12.6ZM381.56,1.66H378.9V.72h16.2v.94h-2.67V10.8h4.32c9.58,0,11.09,4.14,11.09,7.49,0,5-3.81,7.63-9.72,7.63H378.9V25h2.66ZM393.91,25c1,0,2.77.07,2.77-3.09V14.83c0-3.17-1.76-3.1-2.77-3.1h-1.48V25Z"/>
+            </symbol>
+            <symbol id="svg-logotip" viewBox="0 0 58.54 58.67">
+                <path fill="currentColor"
+                      d="M17.73,48.65a3.45,3.45,0,0,1-.35,3.61,3.48,3.48,0,0,1-3.32,1.47A4,4,0,0,1,12.22,53a3.92,3.92,0,0,1-1.29-1.5,3.47,3.47,0,0,1-.35-1.84,3.58,3.58,0,0,1,.69-1.78,3.51,3.51,0,0,1,1.48-1.21,3.44,3.44,0,0,1,1.85-.26,4.25,4.25,0,0,1,3.13,2.27Zm-3.17-1.07a2.29,2.29,0,0,0-1.23.2,2.58,2.58,0,0,0-1,.84,2.53,2.53,0,0,0-.48,1.21,2.26,2.26,0,0,0,.2,1.23,2.69,2.69,0,0,0,2,1.47,2.17,2.17,0,0,0,1.23-.2,2.35,2.35,0,0,0,1-.83,2.51,2.51,0,0,0,.48-1.22,2.3,2.3,0,0,0-.19-1.22,2.66,2.66,0,0,0-2-1.48Z"/>
+                <path fill="currentColor"
+                      d="M2,40l6.2-3.24.6,1.15L6.19,39.27l1.67,3.21,2.66-1.39.6,1.15-6.2,3.24-.61-1.15L6.88,43,5.2,39.78,2.64,41.12Z"/>
+                <path fill="currentColor"
+                      d="M5.56,30.94l.5,3.46,1.7.45L8,36.18.57,34.06.39,32.79l6.47-4.12L7.06,30Zm-.95.57L1.77,33.25,5,34.11Z"/>
+                <path fill="currentColor"
+                      d="M1,21.39l5.13,3.86a3.08,3.08,0,0,1,1,1.11,2.09,2.09,0,0,1,.19,1.25,2.61,2.61,0,0,1-.37,1l-1-.47a2.56,2.56,0,0,0,.23-.65,1.23,1.23,0,0,0-.49-1.13l-.15-.13L0,28.18.21,26.8l4.38-1.42L.85,22.65Z"/>
+                <path fill="currentColor"
+                      d="M6.66,18.44,6.1,19.61l2.66,1.28L8.21,22,1.9,19l.55-1.16,2.64,1.27.58-1.21L3.9,14.84l.59-1.24,2,3.62,4.32-.68-.63,1.33Z"/>
+                <path fill="currentColor"
+                      d="M13.94,11.59l.82.73-3.51,3.9L6,11.55,9.45,7.74l.81.73L7.72,11.31l1.35,1.21L11.33,10l.8.71L9.87,13.24l1.44,1.29Z"/>
+                <path fill="currentColor"
+                      d="M21,1.17,26.35.11l.21,1L22.47,2l.34,1.69,2-.41a3,3,0,0,1,2,.15,1.84,1.84,0,0,1,.93,1.36,1.89,1.89,0,0,1-.39,1.71,3.26,3.26,0,0,1-1.9,1L22.37,8ZM25.2,6.46A1.92,1.92,0,0,0,26.26,6a1,1,0,0,0,.22-.9c-.14-.71-.71-1-1.71-.76L23,4.64l.43,2.17Z"/>
+                <path fill="currentColor"
+                      d="M34.51,6.4,34.4,7.49,29.18,7l.69-7L35,.51l-.11,1.08-3.79-.38L30.88,3l3.36.34-.1,1.06-3.37-.33L30.58,6Z"/>
+                <path fill="currentColor"
+                      d="M40.83,6.73a1.61,1.61,0,0,1,0,1.1A1.63,1.63,0,0,1,40,8.7,2.55,2.55,0,0,1,38.71,9a4.46,4.46,0,0,1-1.48-.31A5.81,5.81,0,0,1,36,8a4.88,4.88,0,0,1-1-1l.74-.73a3.74,3.74,0,0,0,.77.82,3.7,3.7,0,0,0,1,.56,2.49,2.49,0,0,0,1.33.2.93.93,0,0,0,.8-.6.77.77,0,0,0-.09-.79,2.08,2.08,0,0,0-.89-.61l-1.52-.6.38-1,1.42.57a1.53,1.53,0,0,0,.94.11.77.77,0,0,0,.54-.48.86.86,0,0,0-.13-.88,2.21,2.21,0,0,0-1-.66,3.23,3.23,0,0,0-1-.23,3.49,3.49,0,0,0-1,0V1.54a4.61,4.61,0,0,1,1.23,0,5,5,0,0,1,1.17.3A4.31,4.31,0,0,1,41,2.62a2.4,2.4,0,0,1,.72,1,1.57,1.57,0,0,1,0,1.11,1.55,1.55,0,0,1-.6.75,1.81,1.81,0,0,1-.93.27A2,2,0,0,1,40.83,6.73Z"/>
+                <path fill="currentColor"
+                      d="M54.79,15.54a2.29,2.29,0,0,1-.18,1.33,2.42,2.42,0,0,1-.93,1,2.45,2.45,0,0,1-1.32.4,2.41,2.41,0,0,1-1.28-.42A3.83,3.83,0,0,1,50,16.67l-.84-1.34L47.44,16.4l-.69-1.1,5.93-3.71L54.21,14A3.79,3.79,0,0,1,54.79,15.54Zm-2.91,1.4a1.42,1.42,0,0,0,1.74-1.09,2,2,0,0,0-.37-1.28l-.81-1.29-2.36,1.47L50.89,16A2,2,0,0,0,51.88,16.94Z"/>
+                <path fill="currentColor"
+                      d="M52.51,25.84l-1,.29-1.39-5.06,6.75-1.85,1.35,4.92-1.05.29-1-3.67-1.76.48.9,3.26-1,.28-.9-3.26L51.46,22Z"/>
+                <path fill="currentColor"
+                      d="M54.43,29.8l0-1.3-3-.07,0-1.28,7,.16,0,1.28-2.93-.07,0,1.34,2.88,2.08,0,1.38-3.33-2.47-3.67,2.4,0-1.47Z"/>
+                <path fill="currentColor"
+                      d="M55.83,41.78l-6.6-2.33.42-1.2,5.57,2,.92-2.6L54.51,37a14.6,14.6,0,0,1-2.17-1,3,3,0,0,1-1.11-1,1.43,1.43,0,0,1-.06-1.25A3.58,3.58,0,0,1,51.5,33l1,.46a.85.85,0,0,0-.13.27.9.9,0,0,0,.39,1.06,8.87,8.87,0,0,0,2.05,1.06l2.7,1.06Z"/>
+                <path fill="currentColor"
+                      d="M46.86,45.4,49,42.67l-.84-1.55.84-1,3.51,6.83-.8,1L44.31,46l.84-1.06Zm1.06.3,3.22.88-1.58-2.93Z"/>
+                <path fill="currentColor"
+                      d="M38.35,49.65l2.37,4,0-4.48.5-.29L45.15,51,42.82,47l1.06-.63,3.56,6-.92.55-4.74-2.58v5.38l-.91.54-3.58-6Z"/>
+                <path fill="currentColor"
+                      d="M30,58.52l-1.27.15-.82-7,1.27-.15Zm1.33-3.11a2,2,0,0,1-.86-1.58A2.18,2.18,0,0,1,31,52a3.18,3.18,0,0,1,2-.86l3-.35.83,6.95-1.27.15-.28-2.36-1.93.23A3,3,0,0,1,31.34,55.41Zm.71-2.82a1.3,1.3,0,0,0-.29,1.06c.1.84.68,1.2,1.72,1.08l1.66-.2-.31-2.62-1.66.2A1.79,1.79,0,0,0,32.05,52.59Z"/>
+                <path fill="currentColor"
+                      d="M36.18,28.53a2.35,2.35,0,0,0-2.35,2.34.56.56,0,0,0,.56.56.57.57,0,0,0,.57-.56,1.22,1.22,0,0,1,1.22-1.22.56.56,0,1,0,0-1.12Z"/>
+                <path fill="currentColor"
+                      d="M40,26.91l-.44-.38h0l-2.07-1.76a5.63,5.63,0,0,0-2.79-1l.11.12-1.26-1.27h0a2,2,0,0,0-3.21.85,1.79,1.79,0,0,0-.86-.28h-.16a1.84,1.84,0,0,0-1,.28,2,2,0,0,0-3.21-.84h0l-1.26,1.26.12-.11a5.5,5.5,0,0,0-2.79,1l-2.07,1.76h0a4,4,0,0,0-.44.38A5.5,5.5,0,1,0,28,31.56a2.77,2.77,0,0,0,1.37.36,2.74,2.74,0,0,0,1.37-.36A5.51,5.51,0,1,0,40,26.91ZM22.5,34.63a3.76,3.76,0,1,1,3.75-3.75A3.75,3.75,0,0,1,22.5,34.63Zm6.84-4.27a1.22,1.22,0,1,1,1.22-1.22A1.22,1.22,0,0,1,29.34,30.36Zm6.84,4.27a3.76,3.76,0,1,1,3.75-3.75A3.75,3.75,0,0,1,36.18,34.63Z"/>
+                <path fill="currentColor"
+                      d="M22.5,28.53a2.35,2.35,0,0,0-2.35,2.34.57.57,0,0,0,1.13,0,1.22,1.22,0,0,1,1.22-1.22.57.57,0,0,0,.56-.56A.56.56,0,0,0,22.5,28.53Z"/>
+            </symbol>
+
+            <symbol id="svg-ico1" viewBox="0 0 93.56 112.51">
+
+                <path fill="currentColor"
+                      d="M9.18,106.66A5.86,5.86,0,0,0,15,112.51h62.6a5.85,5.85,0,0,0,5.83-5.85V82.17a.91.91,0,1,0-1.81,0v24.49a4,4,0,0,1-4,4H15a4,4,0,0,1-4-4V82.17a.91.91,0,0,0-1.82,0Z"/>
+                <path fill="currentColor"
+                      d="M17.67,73.59A2.65,2.65,0,0,1,15,70.93a.91.91,0,0,0-1.82,0,4.48,4.48,0,0,0,4.47,4.48h0a.91.91,0,1,0,0-1.82Z"/>
+                <path fill="currentColor"
+                      d="M10.09,34.61a.91.91,0,0,0-.91.91V72.89a6.54,6.54,0,0,0,6.53,6.53H76.93a6.54,6.54,0,0,0,6.52-6.53V36.43h5.86a.9.9,0,0,0,.9-.91V22.92h2.44a.91.91,0,0,0,0-1.82H85.93a.91.91,0,1,0,0,1.82H88.4V34.61H78.27V27.22h3.37v3a.91.91,0,1,0,1.81,0V26.31a.9.9,0,0,0-.9-.91H78.27V.91a.9.9,0,0,0-.9-.91H14.59a.91.91,0,0,0-.91.91V25.4H10.05a.9.9,0,0,0-.9.91V30.2a.91.91,0,1,0,1.81,0v-3h2.72v7.39ZM81.64,72.89a4.72,4.72,0,0,1-4.71,4.71H15.71A4.71,4.71,0,0,1,11,72.89V36.43h8.94a26.24,26.24,0,0,0,52.45,0h9.25ZM15.5,1.81h61V25.4h-61Zm0,25.41h61v7.39h-5a1,1,0,0,0-.65.34,1.07,1.07,0,0,0-.26.71,24.43,24.43,0,0,1-48.85,0h-.91l.91-.13a.91.91,0,0,0-.91-.91H15.5Z"/>
+                <path fill="currentColor"
+                      d="M30,42.25c1.44,6.08,8.23,12.47,16.33,12.47,7.11,0,11.41-3,13.83-6.4l.16-.1a.9.9,0,0,0,.27-.53,14.46,14.46,0,0,0,2.1-5.45,5.67,5.67,0,1,0-4.85-8.63h-23A5.66,5.66,0,1,0,30,42.24Zm4.72,5.07,7.41-8.48a6.07,6.07,0,0,0,.8.64c-.7,1.81-1.42,3.82-2.1,5.78s-1.35,3.73-2,5.55A16.43,16.43,0,0,1,34.76,47.32Zm10.62-7,.07,12.49a14.24,14.24,0,0,1-5-1.23c.69-1.82,1.41-3.81,2.1-5.77s1.38-3.87,2.06-5.65A7.37,7.37,0,0,0,45.38,40.37Zm1.82,0A5.55,5.55,0,0,0,48,40.2l5.05,11.38a18.65,18.65,0,0,1-5.8,1.3Zm-.91-1.75a4.46,4.46,0,0,1-4.23-3.19h8.46a4.34,4.34,0,0,1-4.24,3.19Zm8.42,12.19-5-11.35a6,6,0,0,0,.78-.63l8.12,8.79A12.81,12.81,0,0,1,54.71,50.81Zm8-18.07a3.86,3.86,0,1,1-3.86,3.85A3.85,3.85,0,0,1,62.68,32.74ZM60.92,42a12.17,12.17,0,0,1-1.35,4.09l-8-8.67a7.65,7.65,0,0,0,.81-2h4.71A5.66,5.66,0,0,0,60.92,42ZM40.14,35.43a7.57,7.57,0,0,0,.91,2l-7.37,8.42A12.88,12.88,0,0,1,31.86,42a5.65,5.65,0,0,0,3.75-6.52ZM30,32.71a3.86,3.86,0,1,1-3.86,3.85A3.85,3.85,0,0,1,30,32.71Z"/>
+                <path fill="currentColor" d="M39.4,68.68h5.44a.91.91,0,1,0,0-1.81H39.4a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor"
+                      d="M63.28,66.87H49.78a.91.91,0,0,0,0,1.81h13.5a1.25,1.25,0,0,1,0,2.49H29.43a1.25,1.25,0,0,1,0-2.49H34.8a.91.91,0,0,0,0-1.81H29.43a3.06,3.06,0,1,0,0,6.11H63.28a3.06,3.06,0,1,0,0-6.11Z"/>
+                <path fill="currentColor"
+                      d="M33.17,104.91a.91.91,0,0,0,.91.91H57.94a.91.91,0,1,0,0-1.81H34.08a.9.9,0,0,0-.91.9Z"/>
+                <path fill="currentColor" d="M20,84.62H17.13a.91.91,0,1,0,0,1.81H20a.91.91,0,1,0,0-1.81Z"/>
+                <path fill="currentColor" d="M29.28,84.62H26.37a.91.91,0,1,0,0,1.81h2.91a.91.91,0,1,0,0-1.81Z"/>
+                <path fill="currentColor" d="M35.59,86.43h2.92a.91.91,0,0,0,0-1.81H35.59a.91.91,0,0,0,0,1.81Z"/>
+                <path fill="currentColor" d="M44.83,86.43h2.91a.91.91,0,1,0,0-1.81H44.83a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M54,86.43H57a.91.91,0,1,0,0-1.81H54a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M63.29,86.43h2.92a.91.91,0,0,0,0-1.81H63.29a.91.91,0,0,0,0,1.81Z"/>
+                <path fill="currentColor" d="M72.53,86.43h2.91a.91.91,0,1,0,0-1.81H72.53a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M20,91.08H17.13a.91.91,0,0,0,0,1.82H20a.91.91,0,1,0,0-1.82Z"/>
+                <path fill="currentColor" d="M29.28,91.08H26.37a.91.91,0,0,0,0,1.82h2.91a.91.91,0,1,0,0-1.82Z"/>
+                <path fill="currentColor" d="M35.59,92.9h2.92a.91.91,0,0,0,0-1.82H35.59a.91.91,0,0,0,0,1.82Z"/>
+                <path fill="currentColor" d="M44.83,92.9h2.91a.91.91,0,0,0,0-1.82H44.83a.91.91,0,0,0,0,1.82Z"/>
+                <path fill="currentColor" d="M54,92.9H57a.91.91,0,0,0,0-1.82H54a.91.91,0,0,0,0,1.82Z"/>
+                <path fill="currentColor" d="M63.29,92.9h2.92a.91.91,0,0,0,0-1.82H63.29a.91.91,0,0,0,0,1.82Z"/>
+                <path fill="currentColor" d="M72.53,92.9h2.91a.91.91,0,0,0,0-1.82H72.53a.91.91,0,0,0,0,1.82Z"/>
+                <path fill="currentColor"
+                      d="M21,98.45a.9.9,0,0,0-.91-.9H17.13a.91.91,0,1,0,0,1.81H20A.91.91,0,0,0,21,98.45Z"/>
+                <path fill="currentColor"
+                      d="M30.19,98.45a.9.9,0,0,0-.91-.9H26.37a.91.91,0,1,0,0,1.81h2.91A.91.91,0,0,0,30.19,98.45Z"/>
+                <path fill="currentColor" d="M35.59,99.36h2.92a.91.91,0,0,0,0-1.81H35.59a.91.91,0,0,0,0,1.81Z"/>
+                <path fill="currentColor" d="M44.83,99.36h2.91a.91.91,0,1,0,0-1.81H44.83a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M54,99.36H57a.91.91,0,1,0,0-1.81H54a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M63.29,99.36h2.92a.91.91,0,0,0,0-1.81H63.29a.91.91,0,0,0,0,1.81Z"/>
+                <path fill="currentColor" d="M72.53,99.36h2.91a.91.91,0,1,0,0-1.81H72.53a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M64.22,105.82h2.91a.91.91,0,1,0,0-1.81H64.22a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M73.46,105.82h2.91a.91.91,0,1,0,0-1.81H73.46a.91.91,0,1,0,0,1.81Z"/>
+                <path fill="currentColor" d="M16.2,104a.91.91,0,0,0,0,1.81h2.92a.91.91,0,0,0,0-1.81Z"/>
+                <path fill="currentColor" d="M25.44,104a.91.91,0,1,0,0,1.81h2.91a.91.91,0,1,0,0-1.81Z"/>
+                <path fill="currentColor" d="M47.74,18H20a.91.91,0,0,0,0,1.81h27.7a.91.91,0,1,0,0-1.81Z"/>
+                <path fill="currentColor" d="M70.63,12.49H20a.91.91,0,0,0,0,1.82H70.63a.91.91,0,0,0,0-1.82Z"/>
+                <path fill="currentColor" d="M20,8.79H70.63a.91.91,0,1,0,0-1.81H20a.91.91,0,0,0,0,1.81Z"/>
+                <path fill="currentColor" d="M76.46,45.76v3.07a.91.91,0,1,0,1.81,0V45.76a.91.91,0,1,0-1.81,0Z"/>
+                <path fill="currentColor"
+                      d="M77.37,52a.9.9,0,0,0-.91.9V72.71a.91.91,0,1,0,1.81,0V52.92A.9.9,0,0,0,77.37,52Z"/>
+                <path fill="currentColor"
+                      d="M5.58,27.22a.91.91,0,0,0,0-1.82H.91a.91.91,0,0,0-.91.91v14.6a.91.91,0,0,0,.91.91H5.58a.91.91,0,0,0,.91-.91V33.57a.91.91,0,0,0-1.82,0V40H1.81V27.22Z"/>
+                <path fill="currentColor"
+                      d="M62.68,37.5a1,1,0,0,0,.34-.07,1.17,1.17,0,0,0,.3-.19.94.94,0,0,0,.26-.65.86.86,0,0,0-.26-.64,1.21,1.21,0,0,0-.3-.2.91.91,0,0,0-1,.2.77.77,0,0,0-.19.3,1,1,0,0,0-.07.34.91.91,0,0,0,.91.91Z"/>
+                <path fill="currentColor"
+                      d="M29.7,37.43a1,1,0,0,0,.34.07.91.91,0,0,0,.91-.91v-.18a.44.44,0,0,0-.06-.16.38.38,0,0,0-.08-.17L30.7,36a.91.91,0,0,0-1-.2.72.72,0,0,0-.29.2.91.91,0,0,0-.27.64,1,1,0,0,0,.27.65.82.82,0,0,0,.28.19Z"/>
+
+            </symbol>
+
+            <symbol id="svg-ico2" viewBox="0 0 86.38 112.5">
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="16.86" y1="89.23" x2="28.22" y2="89.23"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="16.86" y1="79.48" x2="39.67" y2="79.48"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="16.86" y1="71.48" x2="39.67" y2="71.48"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="16.86" y1="63.48" x2="39.67" y2="63.48"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="75.46 0.75 85.63 0.75 85.63 105.75"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="85.28 105.75 6.75 105.75 6.75 0.75 53.84 0.75"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="46 111.75 0.75 111.75 0.75 6.75"/>
+                <rect fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x="16.86" y="10.52" width="58.21" height="27.68"/>
+                <rect fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x="16.86" y="46.98" width="58.21" height="6.2"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          points="75.02 78.28 75.02 78.28 75.02 63.15 47.92 63.15 47.92 88.92 63.56 88.92 63.56 88.92"/>
+            </symbol>
+
+            <symbol id="svg-ico3" viewBox="0 0 89.29 112.69">
+
+                <polygon fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                         stroke-linejoin="round" points="63.18 92.41 82.72 92.41 63.18 111.94 63.18 92.41"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="63.18 111.94 0.75 111.94 0.75 0.75 13.43 0.75 70.03 0.75"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="82.72 56.35 82.72 0.75 70.03 0.75 70.03 0.75"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="82.71" y1="92.41" x2="82.71" y2="66.53"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="82.72 4.2 88.54 4.2 88.54 100.69 88.54 109.17 66.42 109.17"/>
+                <rect fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x="41.95" y="52.29" width="29.1" height="27.68"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="12.41" x2="70.33" y2="12.41"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="19.28" x2="70.33" y2="19.28"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="15.7" x2="70.12" y2="15.7"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="32.39" x2="70.33" y2="32.39"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="39.26" x2="70.33" y2="39.26"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="52.23" y1="35.68" x2="70.12" y2="35.68"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="52.81" x2="32.1" y2="52.81"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="59.68" x2="32.1" y2="59.68"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="56.1" x2="31.89" y2="56.1"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="72.79" x2="32.1" y2="72.79"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="79.66" x2="32.1" y2="79.66"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="76.08" x2="31.89" y2="76.08"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="92.34" x2="54.33" y2="92.34"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="99.21" x2="54.33" y2="99.21"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="14.01" y1="95.63" x2="53.86" y2="95.63"/>
+                <polygon fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                         stroke-linejoin="round"
+                         points="27.99 12.13 32.44 21.14 42.38 22.59 35.19 29.6 36.88 39.51 27.99 34.83 19.09 39.51 20.79 29.6 13.59 22.59 23.54 21.14 27.99 12.13"/>
+            </symbol>
+
+            <symbol id="svg-ico4" viewBox="0 0 94.48 126.04">
+
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M39.92,47.31a79.51,79.51,0,0,1-1,8.36,3.06,3.06,0,0,0,2.18,3.47,19.42,19.42,0,0,0,6.45,1,20.29,20.29,0,0,0,7-1.14,2.78,2.78,0,0,0,1.94-3.15,71.11,71.11,0,0,1-1.08-8.91"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M63.33,27.44c0,13-9.29,23.44-15.92,23.44-5.81,0-13.65-8-15.52-18.72"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M63.33,27.44c-15.92-5-15.91-12.51-15.91-12.51S31.88,18,31.88,32.06"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M69,31.57C69,18.53,59.68,8,48.16,8"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M26.5,33.52c.47,5.27,2,18.58,5.23,26.45"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M69,61.09c5.15-14.78,5.15-30.33,5.15-30.33,0-16.58-11.88-30-26.53-30-12.51,0-23,9.8-25.79,23a33.08,33.08,0,0,0-.52,9.78c.47,5.27,1.83,19.71,5.1,27.57"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M36.39,29.19h8.36a0,0,0,0,1,0,0v2a4.05,4.05,0,0,1-4.05,4.05h-.25a4.05,4.05,0,0,1-4.05-4.05v-2A0,0,0,0,1,36.39,29.19Z"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M49.63,29.19H58a0,0,0,0,1,0,0v2a4.05,4.05,0,0,1-4.05,4.05h-.25a4.05,4.05,0,0,1-4.05-4.05v-2A0,0,0,0,1,49.63,29.19Z"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="44.75" y1="31.1" x2="49.63" y2="31.1"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M47.69,43.23A5.26,5.26,0,0,0,53.3,41.1"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M47.19,60.12l-4.08,7.5L37.8,63.23a5.9,5.9,0,0,1-1-8,23,23,0,0,1,2.49-2.95"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M48.15,60.12l4.08,7.5,5.31-4.39a5.9,5.9,0,0,0,1.05-8,23.8,23.8,0,0,0-2.49-2.95"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M59.68,58.2A49,49,0,0,0,73.78,62c8.12.94,7.44,9.69,7.44,9.69"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M35.42,58.57A44.77,44.77,0,0,1,22.17,62c-8.12.94-7.65,10-7.65,10"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="70.58" y1="114.07" x2="53.56" y2="117.49"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="69.96" y1="109.5" x2="53.56" y2="112.79"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="70.58" y1="104.68" x2="53.56" y2="108.1"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="81.82 80.52 53.03 85.89 53.03 101.74 70.85 98.11"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          points="87.08 89.5 87.08 74.22 47.39 82.3 47.39 125.29 87.08 117.21 87.08 103.74"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="29.93" y1="115.83" x2="23.11" y2="114.44"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="31.84" y1="112.93" x2="21.2" y2="110.77"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          points="7.65 89.5 7.65 74.22 47.34 82.3 47.34 125.29 7.65 117.21 7.65 103.74"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="84.09 74.7 84.09 71.07 68.74 76.06"/>
+                <polyline fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                          stroke-linejoin="round" points="10.69 74.7 10.69 71.07 26.04 76.06"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5.68,96.18,15,98.12a1.37,1.37,0,0,0,1.65-1.33V96a1.37,1.37,0,0,0-1.13-1.35h0"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.1,92.6l9.38,2.07V92.19a1.36,1.36,0,0,0-1.09-1.34L3.92,88.69s-1.92,0-1.92,3a3.29,3.29,0,0,0-.39,3.8,2.9,2.9,0,0,0-.47,3.46l0,0a2.79,2.79,0,0,0,2.13,3.82l.67.11,8.18,1.81a1.37,1.37,0,0,0,1.66-1.34V101.5"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M16,97.94v2.35a1.36,1.36,0,0,1-1.66,1.33l-8.64-1.9"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M87.68,96.48l-8.17,1.71a1.36,1.36,0,0,1-1.64-1.33v-.78A1.36,1.36,0,0,1,79,94.74h0"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M88.06,92.74l-9.07,2V92.26a1.37,1.37,0,0,1,1.09-1.34l10.47-2.17s1.93,0,1.93,3a3.29,3.29,0,0,1,.39,3.8A2.92,2.92,0,0,1,93.34,99a.12.12,0,0,1,0,0,2.79,2.79,0,0,1-2.13,3.82l-.68.11-8.18,1.8a1.36,1.36,0,0,1-1.66-1.33v-1.89"/>
+                <path fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" d="M88.44,99.86l-8.28,1.83a1.37,1.37,0,0,1-1.66-1.34V99"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="47.42" y1="75.14" x2="47.42" y2="76.3"/>
+                <line fill="none" stroke="currentColor" stroke-width="1.5px" stroke-linecap="round"
+                      stroke-linejoin="round" x1="47.42" y1="69.03" x2="47.42" y2="70.19"/>
+
+            </symbol>
+
+            <symbol id="svg-play" viewBox="0 0 30.05 30.05">
+                <path fill="currentColor"
+                      d="M20,14.44,13.74,9.9a.75.75,0,0,0-1.19.61v9.07a.74.74,0,0,0,.41.67.81.81,0,0,0,.34.08.73.73,0,0,0,.44-.15L20,15.65a.75.75,0,0,0,.31-.61A.7.7,0,0,0,20,14.44Z"/>
+                <path fill="currentColor"
+                      d="M15,0a15,15,0,1,0,15,15A15,15,0,0,0,15,0Zm0,27.54A12.52,12.52,0,1,1,27.54,15,12.51,12.51,0,0,1,15,27.54Z"/>
+            </symbol>
+
+            <symbol id="svg-q" viewBox="0 0 46 36">
+                <path fill="currentColor" d="M1907.65,5487.01a10.006,10.006,0,0,0,0-20.01,9.46,9.46,0,0,0-4.26,1.07l-1.74.93a17.632,17.632,0,0,1,7.07-11.6,19.343,19.343,0,0,1,5.6-3.07l-1.34-3.34a22.881,22.881,0,0,0-8,4.81q-7.995,6.93-7.99,19.21a12.436,12.436,0,0,0,3,8.74,9.921,9.921,0,0,0,7.66,3.26h0Zm25.33,0a10.008,10.008,0,1,0-4.27-18.94l-1.73.93a17.632,17.632,0,0,1,7.07-11.6,19.343,19.343,0,0,1,5.6-3.07l-1.34-3.34a21.366,21.366,0,0,0-8,4.81q-7.995,6.93-7.99,19.21a12.477,12.477,0,0,0,2.99,8.74,9.942,9.942,0,0,0,7.67,3.26h0Z" transform="translate(-1897 -5451)"/>
+            </symbol>
+
+        </svg>
+    </div>
+
+    <script src="js/lib.js"></script>
+    <script src="js/main.js"></script>
+</div>
+</body>
+
+</html>

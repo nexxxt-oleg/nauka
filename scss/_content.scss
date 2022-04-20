@@ -1,0 +1,361 @@
+.science__top-btn {
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 100px;
+  .science__btn {
+    width: 310px;
+    margin: 0 30px 30px;
+  }
+}
+.science__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  height: 60px;
+  border-radius: 6px;
+  padding: 5px 15px;
+  span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  &--green {
+    background: #16a085;
+  }
+  &--blue {
+    background: #1e8bc3;
+  }
+}
+.fpad50 {
+  padding-bottom: 50px;
+}
+.science__box-text {
+  padding: 0 45px;
+  h2 {
+    display: flex;
+    margin-bottom: 25px;
+    position: relative;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 30px;
+    line-height: 36px;
+    min-height: 114px;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      width: 70px;
+      height: 2px;
+      background: #6c7a89;
+    }
+  }
+}
+h2, h3 {
+  font-family: "Yeseva One";
+  font-weight: normal;
+}
+.science__informer {
+  padding-top: 50px;
+  background: #f7f5f1;
+  &__item {
+    padding: 0 10px;
+    text-align: center;
+    &__ico {
+      display: flex;
+      justify-content: center;
+      height: 120px;
+    }
+    &__desc {
+      text-align: center;
+      font-size: 14px;
+      color: #000;
+    }
+  }
+}
+.science__inspection {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+  &__video {
+    max-width: 640px;
+    width: 100%;
+    height: 360px;
+    margin: 0 auto 60px;
+    position: relative;
+    z-index: 2;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 2;
+      bottom: -10px;
+      width: calc(100% - 40px);
+      left: 20px;
+      border-radius: 10px;
+      background-color: #dadada;
+      height: 20px;
+    }
+    &__wrap {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #000;
+      position: relative;
+      z-index: 10;
+    }
+
+    &__play {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #000;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      z-index: 11;
+      top: 0;
+      left: 0;
+      .play-button {
+        display: inline-flex;
+        height: 54px;
+        padding: 10px 30px 10px 12px;
+        align-items: center;
+        color: #fff;
+        background-color: #f11a45;
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 500;
+        border-radius: 27px;
+        cursor: pointer;
+        .icon {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  &__book {
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    right: 0;
+  }
+}
+.science__caption {
+  text-align: center;
+  padding-bottom: 70px;
+  position: relative;
+  &--border {
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 1;
+      bottom: 45px;
+      background-color: #6c7a89;
+      height: 1px;
+      width: 70px;
+      left: 50%;
+      margin-left: -35px;
+    }
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+}
+.science__fonts16 {
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+.science__rew {
+  padding-top: 100px;
+  background-color: #f6fafe;
+  padding-bottom: 40px;
+  &__slider {
+    position: relative;
+    .swiper.swiper-initialized {
+      overflow: visible !important;
+      .swiper-slide {
+        opacity: 0.5;
+        &.swiper-slide-active {
+          opacity: 1;
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            left: 20px;
+            width: calc(100% - 40px);
+            height: 20px;
+            border-radius: 10px;
+            background: #d9e4ef;
+          }
+        }
+      }
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      position: relative;
+      background-color: #fff;
+      margin-bottom: 10px;
+      z-index: 10;
+      &__text {
+        padding-top: 60px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000;
+        position: relative;
+        .icon {
+          position: absolute;
+          z-index: 10;
+          top: 0;
+          left: 50%;
+          margin-left: -11.5px;
+        }
+        &__author {
+          display: block;
+          padding-top: 20px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .swiper-button-next:after,
+  & .swiper-button-prev:after {
+    color: #000 !important;
+    font-size: 34px !important;
+  }
+  .swiper-button-next {
+    right: -50px;
+  }
+  .swiper-button-prev {
+    left: -50px;
+  }
+  .swiper-button-disabled {
+    display: none;
+  }
+}
+.swiper-pagination-rew {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  .swiper-pagination-bullet {
+    margin: 0 3px !important;
+    width: 22px;
+    height: 22px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    position: relative;
+    background-color: transparent;
+    opacity: 1;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 4px;
+      background-color: #000;
+      top: 50%;
+      left: 50%;
+      margin: -4px 0 0 -4px;
+    }
+    &.swiper-pagination-bullet-active {
+      border-color: #000;
+    }
+  }
+}
+.science__answers {
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+  &__book {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+}
+.accordion {
+  margin-top: -30px;
+  &__item:not(:first-child) {
+    border-top: 2px solid #dadada;
+  }
+  &__header {
+    min-height: 86px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 30px 10px 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      right: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cg id='Слой_2' data-name='Слой 2'%3E%3Cg id='Слой_1-2' data-name='Слой 1'%3E%3Cg id='_03_Login' data-name=' 03 Login'%3E%3Cpath d='M256,512a25,25,0,0,1-25-25V25a25,25,0,0,1,50,0V487A25,25,0,0,1,256,512Z'/%3E%3Cpath d='M487,281H25a25,25,0,0,1,0-50H487a25,25,0,0,1,0,50Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      width: 24px;
+      height: 24px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: -12px;
+      transition: all 0.5s ease-in-out;
+      transform: rotate(225deg)
+    }
+      &.collapsed::after {
+        transform: rotate(0deg);
+      }
+  }
+  &__body {
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.science__bay {
+  padding: 100px 0 50px;
+  background-color: #f7f5f1;
+}
+.science__rew__footer {
+  margin: 0 auto;
+  width: 310px;
+}
