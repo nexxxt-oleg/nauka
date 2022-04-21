@@ -65,4 +65,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
         },
     });
 
+    new Swiper('#sliderBay', {
+        speed: 400,
+        spaceBetween: 70,
+        pagination: {
+            el: '#paginationBay',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '#sliderBay .swiper-button-next',
+            prevEl: '#sliderBay .swiper-button-prev',
+        },
+        preloadImages: false,
+        // Enable lazy loading
+        lazy: {
+            loadPrevNext: true,
+        },
+    });
+
 });

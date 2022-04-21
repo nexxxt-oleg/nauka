@@ -1,0 +1,26 @@
+@media screen and (max-width: 1199px) {
+  .rellax {
+    display: none;
+  }
+  .navbar-toggler {
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .science__header__logo {
+    width: 385px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+  }
+  .science__header {
+    height: 420px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1199px) {}
