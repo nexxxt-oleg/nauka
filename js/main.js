@@ -12,7 +12,7 @@ function setEqualHeight(elements) {
 }
 
 new LazyLoad;
-if (window.screen.width > 768) {
+if (window.screen.width > 991) {
     AOS.init();
 
     new Rellax('.rellax');

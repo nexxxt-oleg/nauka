@@ -16,15 +16,19 @@
 <body>
 <div class="science">
     <header class="science__header lazy" data-bg="./img/bg-top.jpg" data-bg-hidpi="./img/bg-top@2x.jpg">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light science__header__navbar ">
-                <button class="navbar-toggler" data-bs-toggle="collapse"
-                        data-bs-target="#navbar"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar" data-aos="fade-down" data-aos-duration="1000">
-                    <ul class="navbar-nav justify-content-center w-100">
+
+        <nav class="navbar navbar-expand-lg navbar-light science__header__navbar ">
+
+            <button class="hamburger  hamburger--collapse navbar-toggler collapsed " data-bs-toggle="collapse"
+                    data-bs-target="#navbar"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="container">
+                    <ul class="navbar-nav justify-content-center w-100" data-aos="fade-down" data-aos-duration="1000">
                         <li class="nav-item">
                             <a class="js-anchor" href="#inspection"><span>Обзор журнала</span></a>
                         </li>
@@ -35,17 +39,20 @@
                             <a class="js-anchor" href="#answers"><span>Ответы на вопросы</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="js-anchor active" href="#bay"><span>Купить журнал</span></a>
+                            <a class="js-anchor active mob-active" href="#bay"><span>Купить журнал</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="js-anchor" href="#subscription"><span>Оформить подписку</span></a>
+                            <a class="js-anchor mob-active" href="#subscription"><span>Оформить подписку</span></a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+        <div class="container">
             <div class="d-flex flex-column justify-content-center align-items-center">
 
-                <svg class="icon science__header__logo" width="770" height="50" data-aos="fade-up" data-aos-duration="1000"
+                <svg class="icon science__header__logo" width="770" height="50" data-aos="fade-up"
+                     data-aos-duration="1000"
                      data-aos-delay="300">
                     <use xlink:href="#svg-logo"></use>
                 </svg>
@@ -428,8 +435,8 @@
                                         </div>
                                         <div class="science__bay__slider__item__btns">
                                             <div class="science__bay__slider__item__title">№ 04, 2022</div>
-                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой от 220 ₽</span></a>
-                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF за 168 ₽</span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой <b>от 220 ₽</b></span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF <b>за 168 ₽</b></span></a>
                                             <a href="" target="_blank" class="science__btn science__btn--ozon">
                                                 <span>
                                                     Купить журнал на
@@ -463,8 +470,8 @@
                                         </div>
                                         <div class="science__bay__slider__item__btns">
                                             <div class="science__bay__slider__item__title">№ 04, 2022</div>
-                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой от 220 ₽</span></a>
-                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF за 168 ₽</span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой <b>от 220 ₽</b></span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF <b>за 168 ₽</b></span></a>
                                             <a href="" target="_blank" class="science__btn science__btn--ozon">
                                                 <span>
                                                     Купить журнал на
@@ -498,8 +505,8 @@
                                         </div>
                                         <div class="science__bay__slider__item__btns">
                                             <div class="science__bay__slider__item__title">№ 04, 2022</div>
-                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой от 220 ₽</span></a>
-                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF за 168 ₽</span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--green"><span>Купить журнал с доставкой <b>от 220 ₽</b></span></a>
+                                            <a href="" target="_blank" class="science__btn science__btn--blue"><span>Купить журнал в PDF <b>за 168 ₽</b></span></a>
                                             <a href="" target="_blank" class="science__btn science__btn--ozon">
                                                 <span>
                                                     Купить журнал на
@@ -522,7 +529,6 @@
 
                             </div>
                             <div class="swiper-button-prev science__nav-sl"></div>
-                            <div class="swiper-button-next science__nav-sl"></div>
                             <div class="swiper-button-next science__nav-sl"></div>
                         </div>
                         <div id="paginationBay" class="swiper-pagination-rew"></div>
